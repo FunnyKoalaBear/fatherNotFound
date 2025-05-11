@@ -49,6 +49,26 @@ label start:
 
 
 
+    #at the flower store
+    scene flower
+    define fso = Character("flower shop owner")
+    main "oOoOoOo what pretty flowers, I wonder if papa is in there....."
+    menu:
+        "go in":
+            label flo:
+                main "wow these flowers smell so nice"
+                main "uh oh.. !!!!!!"
+                fso "grrrrr now you have to pay for those flowers"
+                main "nuuuuuuuuuuuu"
+                return
+
+        "don't go in":
+            fso "come on in child, look at all these pretty flowers"
+            main "*hesitates*"
+            fso "I SAID COME IN"
+            jump flo
+
+
 
 
 
