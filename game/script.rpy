@@ -64,23 +64,34 @@ label start:
                     jump chocos1
     label groceryconc:
         main "I should probably ask the store clerk about my dad"
+
     label arcade1:
         main "time to go to the arcade"
         #deduct money
         #play super fun game
 
+
+        
+        show main happy 
         main "wow that was fun"
+
+        main "why was I here again??"
+        main "omg I need to find my father"
+
+        main "I should get going"
+        jump groceryconc
 
     
     label chocos1:
         main "I love me some chocos"
         #deduct money
-        
+
+        #nom noms happily        
 
         #in the end
         main "why was I here again??"
         main "omg I need to find my father"
-        main "I need to get going"
+        main "I should get going"
 
         jump groceryconc
 
