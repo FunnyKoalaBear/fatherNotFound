@@ -34,7 +34,7 @@ label start:
 
     #mithuns flashback scene
     scene flashback
-    main "oh my gosh"
+    main "OH MY GOSH HE IS GOING TO GO GET MILK"
 
     
     #dillips first grocery store scene 
