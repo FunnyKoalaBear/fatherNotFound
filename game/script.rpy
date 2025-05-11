@@ -40,7 +40,7 @@ label start:
     scene outside_gstore
 
     main "Grocery store should be where dad is at"
-    main "Here I gooo..."
+    main "Here I gooo huhuhu"
 
     scene In_gstore
 
