@@ -46,6 +46,7 @@ label start:
     scene In_gstore
 
     main "hi"
+    main "wasup"
 
 
 
