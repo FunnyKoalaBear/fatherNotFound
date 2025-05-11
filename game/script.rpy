@@ -41,12 +41,53 @@ label start:
     scene outside_gstore
 
     main "Grocery store should be where dad is at"
-    main "Here I gooo huhuhu"
+    main "Here I gooo"
 
     scene In_gstore
+    main "wow i love the grocery store"
+    menu:
+        "Find dad":
+            jump groceryconc
+            
 
-    main "hi"
-    main "wasup"
+        "get distracted":
+            main "I have some leftover pocket money this week"
+            #show cash balance
+
+            main "I'd love to eat some chocolates"
+            main "But I would also love to play in the arcade"
+            menu:
+
+                "Go to Arcade (50$)":
+                    jump arcade1
+                "Go buy chocos (20$)":
+                    jump chocos1
+    label groceryconc:
+        main "I should probably ask the store clerk about my dad"
+    label arcade1:
+        main "time to go to the arcade"
+        #deduct money
+        #play super fun game
+
+        main "wow that was fun"
+
+    
+    label chocos1:
+        main "I love me some chocos"
+        #deduct money
+        
+
+        #in the end
+        main "why was I here again??"
+        main "omg I need to find my father"
+        main "I need to get going"
+
+        jump groceryconc
+
+
+
+
+
 
 
 
