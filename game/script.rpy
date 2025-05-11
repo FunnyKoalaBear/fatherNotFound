@@ -34,16 +34,18 @@ label start:
 
     #mithuns flashback scene
     scene flashback
-    main "OH MY GOSH HE IS GOING TO GO GET MILK"
+    main "oh my gosh"
 
     
     #dillips first grocery store scene 
     scene outside_gstore
 
-    main "Grocery store should be where dad is at"
+    main "Grocery store should be where papa is at"
     main "Here I gooo"
 
     scene In_gstore
+    define sw = Character("Store worker")
+
     main "wow i love the grocery store"
     menu:
         "Find dad":
@@ -62,8 +64,7 @@ label start:
                     jump arcade1
                 "Go buy chocos (20$)":
                     jump chocos1
-    label groceryconc:
-        main "I should probably ask the store clerk about my dad"
+    
 
     label arcade1:
         main "time to go to the arcade"
@@ -76,7 +77,7 @@ label start:
         main "wow that was fun"
 
         main "why was I here again??"
-        main "omg I need to find my father"
+        main "omg I need to find my papa"
 
         main "I should get going"
         jump groceryconc
@@ -90,10 +91,28 @@ label start:
 
         #in the end
         main "why was I here again??"
-        main "omg I need to find my father"
+        main "omg I need to find my papa"
         main "I should get going"
 
         jump groceryconc
+    label groceryconc:
+        main "I should probably ask the store clerk about my dad"
+
+        show main right
+        show sw left
+
+        main "hello store worker"
+        sw "Oh hello Bancat"
+        sw "Why are you alone? Your father was just here!"
+
+        #surprise cat
+        main "omg where did he go???"
+        sw "Oh he just left to the flower shop..."
+
+        main "omg thank you I gtg catch himmmm"
+        sw "what a funny cat"
+
+
 
 
 
