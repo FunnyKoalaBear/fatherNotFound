@@ -21,13 +21,14 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show m happy
 
     # These display lines of dialogue.
 
 
     #pujithas starting scene
     scene house
+    show dad happy at left
+    show main happy at right
     dad "gonna get milk"
     main "okay"
 
@@ -44,7 +45,7 @@ label start:
 
     scene In_gstore
 
-    main 
+    main "hi"
 
 
 
