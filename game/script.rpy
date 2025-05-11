@@ -29,7 +29,7 @@ label start:
     #pujithas starting scene
     scene house
     dad "gonna get milk"
-    main "ok"
+    main "okay"
 
     #mithuns flashback scene
     scene flashback
